@@ -39,6 +39,9 @@ build/Release
 
 # Dependency directories
 node_modules
+.migration_backup
+.update_backup
+Groceries/platforms/android
 jspm_packages/
 
 # TypeScript v1 declaration files

@@ -1,7 +1,8 @@
 import { Component } from "@angular/core";
 
 @Component({
-  selector: "my-app",
-  template: "<Label text='hello world'></Label>"
+  selector: "gr-login",
+  moduleId: module.id,
+  templateUrl: "./pages/login/login.html"
 })
 export class AppComponent {}
