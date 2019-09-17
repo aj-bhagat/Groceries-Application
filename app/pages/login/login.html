@@ -1,10 +1,14 @@
 <ActionBar title="Groceries"></ActionBar>
-<Flexboxlayout>
-<Stacklayout>
-    <TextField hint="Email Address" keyboardType="email" autocorrect="false" autocapitalizationType="none"></TextField>
-    <TextField hint="Password" secure="true"></TextField>
-    
-    <Button text="Sign in"></Button>
+
+<FlexboxLayout>
+  <StackLayout class="form">
+    <TextField hint="Email Address" keyboardType="email"
+      autocorrect="false" autocapitalizationType="none"
+      class="input input-border"></TextField>
+    <TextField hint="Password" secure="true"
+      class="input input-border"></TextField>
+
+    <Button text="Sign in" class="btn btn-primary"></Button>
     <Button text="Sign up for Groceries"></Button>
-</Stacklayout>
-</Flexboxlayout>
+  </StackLayout>
+</FlexboxLayout>
