@@ -1,0 +1,11 @@
+webpackHotUpdate("bundle",{
+
+/***/ "./pages/login/login.html":
+/***/ (function(module, exports) {
+
+module.exports = "<ActionBar title=\"Groceries\"></ActionBar>\r\n\r\n<FlexboxLayout>\r\n  <StackLayout class=\"form\">\r\n      <Image src=\"~/images/logo.png\"></Image>\r\n    <TextField hint=\"Email Address\" keyboardType=\"email\"\r\n      autocorrect=\"false\" autocapitalizationType=\"none\" [(ngModel)]=\"email\"\r\n      class=\"input input-border\"></TextField>\r\n    <TextField hint=\"Password\" secure=\"true\"\r\n      class=\"input input-border\"></TextField>\r\n\r\n    <Button text=\"Sign in\" class=\"btn btn-primary\" (tap)=\"submit()\"></Button>\r\n    <Button text=\"Sign up for Groceries\"></Button>\r\n  </StackLayout>\r\n</FlexboxLayout>"
+
+/***/ })
+
+})
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9wYWdlcy9sb2dpbi9sb2dpbi5odG1sIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7O0FBQUEsb3BCIiwiZmlsZSI6ImJ1bmRsZS5jOTllMTM2NGVmMTIyMjYxYzczZC5ob3QtdXBkYXRlLmpzIiwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSBcIjxBY3Rpb25CYXIgdGl0bGU9XFxcIkdyb2Nlcmllc1xcXCI+PC9BY3Rpb25CYXI+XFxyXFxuXFxyXFxuPEZsZXhib3hMYXlvdXQ+XFxyXFxuICA8U3RhY2tMYXlvdXQgY2xhc3M9XFxcImZvcm1cXFwiPlxcclxcbiAgICAgIDxJbWFnZSBzcmM9XFxcIn4vaW1hZ2VzL2xvZ28ucG5nXFxcIj48L0ltYWdlPlxcclxcbiAgICA8VGV4dEZpZWxkIGhpbnQ9XFxcIkVtYWlsIEFkZHJlc3NcXFwiIGtleWJvYXJkVHlwZT1cXFwiZW1haWxcXFwiXFxyXFxuICAgICAgYXV0b2NvcnJlY3Q9XFxcImZhbHNlXFxcIiBhdXRvY2FwaXRhbGl6YXRpb25UeXBlPVxcXCJub25lXFxcIiBbKG5nTW9kZWwpXT1cXFwiZW1haWxcXFwiXFxyXFxuICAgICAgY2xhc3M9XFxcImlucHV0IGlucHV0LWJvcmRlclxcXCI+PC9UZXh0RmllbGQ+XFxyXFxuICAgIDxUZXh0RmllbGQgaGludD1cXFwiUGFzc3dvcmRcXFwiIHNlY3VyZT1cXFwidHJ1ZVxcXCJcXHJcXG4gICAgICBjbGFzcz1cXFwiaW5wdXQgaW5wdXQtYm9yZGVyXFxcIj48L1RleHRGaWVsZD5cXHJcXG5cXHJcXG4gICAgPEJ1dHRvbiB0ZXh0PVxcXCJTaWduIGluXFxcIiBjbGFzcz1cXFwiYnRuIGJ0bi1wcmltYXJ5XFxcIiAodGFwKT1cXFwic3VibWl0KClcXFwiPjwvQnV0dG9uPlxcclxcbiAgICA8QnV0dG9uIHRleHQ9XFxcIlNpZ24gdXAgZm9yIEdyb2Nlcmllc1xcXCI+PC9CdXR0b24+XFxyXFxuICA8L1N0YWNrTGF5b3V0PlxcclxcbjwvRmxleGJveExheW91dD5cIiJdLCJzb3VyY2VSb290IjoiIn0=
