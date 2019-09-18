@@ -6,6 +6,6 @@ FlexboxLayout {
 }
 StackLayout {
   width: 300;
-  padding: 16 16;
+  padding: 15 16;
   background-color: #f0f0f0;
 }
