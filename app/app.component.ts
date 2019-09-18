@@ -6,4 +6,9 @@ import { Component } from "@angular/core";
   templateUrl: "./pages/login/login.html",
   styleUrls: ["./pages/login/login.android.css"]
 })
-export class AppComponent {}
+export class AppComponent {
+  email="ajaybhagatm620@gmail.com";
+  submit(){
+    alert("You're using: "+this.email);
+  }
+}
