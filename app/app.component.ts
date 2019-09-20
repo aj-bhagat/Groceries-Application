@@ -8,7 +8,12 @@ import { Component } from "@angular/core";
 })
 export class AppComponent {
   email="ajaybhagatm620@gmail.com";
+  isLoggingIn = true;
   submit(){
     alert("You're using: "+this.email);
   }
+
+toggleDisplay(){
+  this.isLoggingIn=!this.isLoggingIn;
+}
 }
