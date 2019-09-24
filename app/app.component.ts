@@ -1,8 +1,10 @@
 import { Component } from "@angular/core";
 import {User} from "./shared/user/user";
+import { UserService } from "./shared/user/user.service";
 
 @Component({
   selector: "gr-login",
+  providers: [UserService],
   moduleId: module.id,
   templateUrl: "./pages/login/login.html",
   styleUrls: ["./pages/login/login.android.css"]
@@ -10,11 +12,23 @@ import {User} from "./shared/user/user";
 export class AppComponent {
   user: User;
   isLoggingIn = true;
-  constructor(){
-    this.user= new User();
+  constructor(private userService: UserService) {
+    this.user = new User();
   }
-  submit(){
-    alert("You're using: "+this.user.email);
+  submit() {
+    if (this.isLoggingIn) {
+      this.login();
+    } else {
+      this.signUp();
+    }
+  }
+  
+  login() {
+    // TODO: Define
+  }
+  
+  signUp() {
+    this.userService.register(this.user);
   }
 
 toggleDisplay(){
