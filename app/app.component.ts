@@ -28,7 +28,20 @@ export class AppComponent {
   }
   
   signUp() {
-    this.userService.register(this.user);
+    this.userService.register(this.user)
+      .subscribe(
+        () => {
+          alert("Your account was successfully created.");
+          this.toggleDisplay();
+        },
+        (exception) => {
+            if(exception.error && exception.error.description) {
+                alert(exception.error.description);
+            } else {
+                alert(exception)
+            }
+        }
+      );
   }
 
 toggleDisplay(){
