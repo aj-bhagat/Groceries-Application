@@ -1,2 +1,2 @@
 # Groceries-Application
-Groceries Application using NativeScript and Angular.
+Groceries Application using Angular and NativeScript.
